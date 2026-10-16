@@ -1,0 +1,16 @@
+.env.local
+node_modules
+dist
+
+# Secrets — never commit. The server reads these at boot.
+.env
+.env.*
+!.env.example
+
+# Database dumps
+*.sql.gz
+dump.sql
+backups/
+.env.keys
+.env.keys.*
+.env.*.enc
